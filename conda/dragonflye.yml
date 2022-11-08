@@ -1,0 +1,7 @@
+name: dragonflye
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - dragonflye=1.0.13
