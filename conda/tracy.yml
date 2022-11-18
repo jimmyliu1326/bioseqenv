@@ -1,0 +1,7 @@
+name: tracy
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - tracy=0.7.2
