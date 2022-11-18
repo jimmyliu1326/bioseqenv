@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 env:
-  tag: 0.2
+  tag: 0.3
   img_name: ${{ github.repository }}
   
 
