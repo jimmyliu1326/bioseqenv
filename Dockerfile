@@ -14,6 +14,8 @@ RUN seqdb_vers="1.0" && \
     echo "export PATH=/seqdb-${seqdb_vers}/:\$PATH" >> ~/.bashrc && \
     . ~/.bashrc
 
+ADD BatchTracy.sh /usr/local/bin/
+
 # add yaml config to /conf
 ADD conda/ /conf/
 
