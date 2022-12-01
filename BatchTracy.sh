@@ -165,3 +165,4 @@ fi
 # if [[ $? -eq 0 ]]; then
 #   echo "${script_name}: Assembly run completed successfully! The consensus sequences are written to: $OUTPUT_PATH"
 # fi
+
