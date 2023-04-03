@@ -14,6 +14,9 @@ RUN seqdb_vers="1.0" && \
     echo "export PATH=/seqdb-${seqdb_vers}/:\$PATH" >> ~/.bashrc && \
     . ~/.bashrc
 
+RUN addgroup --gid 1000 docker && \
+    adduser --uid 1000 --ingroup docker --home /home/docker --shell /bin/sh --disabled-password --gecos "" docker
+
 ADD BatchTracy.sh /usr/local/bin/
 
 # add yaml config to /conf
