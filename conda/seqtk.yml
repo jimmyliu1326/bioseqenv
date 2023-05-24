@@ -4,4 +4,4 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - seqtk=1.2-r94
+  - seqtk=1.2
