@@ -1,7 +1,7 @@
-name: seqkit
+name: seqtk
 channels:
   - bioconda
   - conda-forge
   - defaults
 dependencies:
-  - seqkit=2.2.0
+  - seqtk=1.2-r94
