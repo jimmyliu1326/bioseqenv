@@ -11,8 +11,7 @@ RUN seqdb_vers="1.0" && \
     wget https://github.com/jimmyliu1326/seqdb/archive/refs/tags/v${seqdb_vers}.tar.gz -O /seqdb.tar.gz && \
     tar -xzf /seqdb.tar.gz && \
     rm /seqdb.tar.gz && \
-    echo "export PATH=/seqdb-${seqdb_vers}/:\$PATH" >> ~/.bashrc && \
-    . ~/.bashrc
+    ln -s /seqdb-${seqdb_vers}/seqdb /usr/local/bin/seqdb
 
 RUN addgroup --gid 1000 docker && \
     adduser --uid 1000 --ingroup docker --home /home/docker --shell /bin/sh --disabled-password --gecos "" docker
