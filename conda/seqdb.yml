@@ -108,7 +108,6 @@ dependencies:
   - numpy=1.20.1=py37haa41c4c_0
   - openjdk=11.0.8=hacce0ff_0
   - openmpi=4.0.5=hdf1f1ad_1
-  - openssl=1.1.1j=h7f98852_0
   - paml=4.9=h516909a_5
   - pandoc=2.10.1=h516909a_0
   - pango=1.42.4=h7062337_4
@@ -441,7 +440,7 @@ dependencies:
   - raxml=8.2.12=h516909a_2
   - readline=8.0=he28a2e2_2
   - rhash=1.3.6=h14c3975_1001
-  - samtools=1.7=1
+  - samtools=1.9
   - sed=4.8=hbfbb72e_0
   - seqkit=0.13.2=0
   - setuptools=49.6.0=py37hc8dfbb8_1
