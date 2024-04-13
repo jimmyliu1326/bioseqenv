@@ -4,7 +4,6 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=1_gnu
   - _r-mutex=1.0.1=anacondar_1
   - abricate=1.0.1=h1341992_0
@@ -27,7 +26,6 @@ dependencies:
   - capnproto=0.6.1=hfc679d8_1
   - certifi=2021.10.8=py37h89c1867_1
   - clustalw=2.1=hc9558a2_5
-  - cmake=3.18.2=h5c55442_0
   - curl=7.71.1=he644dc0_8
   - entrez-direct=13.9=pl526h375a9b1_0
   - expat=2.2.9=he1b5a44_2
@@ -58,7 +56,6 @@ dependencies:
   - gxx_impl_linux-64=7.5.0=h64c220c_13
   - gxx_linux-64=7.5.0=h547f3ba_29
   - harfbuzz=2.7.2=hee91db6_0
-  - hyphy=2.5.19=h3db2f75_0
   - icu=67.1=he1b5a44_0
   - iqtree=2.0.3=h176a8bc_0
   - jpeg=9d=h516909a_0
@@ -70,16 +67,12 @@ dependencies:
   - libcblas=3.8.0=17_openblas
   - libcurl=7.71.1=hcdd3856_8
   - libdb=6.2.32=he1b5a44_0
-  - libdeflate=1.6=h516909a_0
-  - libedit=3.1.20191231=he28a2e2_2
   - libev=4.33=h516909a_1
   - libffi=3.2.1=he1b5a44_1007
   - libgcc=7.2.0=h69d50b8_2
-  - libgcc-ng=9.3.0=h5dbcf3e_17
   - libgd=2.2.5=h341251c_1008
   - libgfortran-ng=7.5.0=hae1eefd_17
   - libgfortran4=7.5.0=hae1eefd_17
-  - libgomp=9.3.0=h5dbcf3e_17
   - libiconv=1.16=h516909a_0
   - liblapack=3.8.0=17_openblas
   - libnghttp2=1.41.0=h8cfc5f6_2
@@ -104,7 +97,6 @@ dependencies:
   - mpi=1.0=openmpi
   - mummer=3.23=pl526he1b5a44_11
   - muscle=3.8.1551=hc9558a2_5
-  - ncurses=6.2=he1b5a44_1
   - numpy=1.20.1=py37haa41c4c_0
   - openjdk=11.0.8=hacce0ff_0
   - openmpi=4.0.5=hdf1f1ad_1
@@ -438,13 +430,11 @@ dependencies:
   - r-yaml=2.2.1=r36hcdcec82_1
   - r-zeallot=0.1.0=r36h6115d3f_1002
   - raxml=8.2.12=h516909a_2
-  - readline=8.0=he28a2e2_2
   - rhash=1.3.6=h14c3975_1001
-  - samtools=1.9
+  - samtools=1.9*
   - sed=4.8=hbfbb72e_0
   - seqkit=0.13.2=0
   - setuptools=49.6.0=py37hc8dfbb8_1
-  - sqlite=3.33.0=h4cf870e_0
   - sysroot_linux-64=2.12=h77966d4_13
   - t_coffee=11.0.8=py37hea885bf_8
   - tbb=2020.2=hc9558a2_0
