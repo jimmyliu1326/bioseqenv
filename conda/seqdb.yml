@@ -12,7 +12,7 @@ dependencies:
   - atk=2.36.0=2
   - atk-1.0=2.36.0=h516909a_2
   - bbmap=38.86=h1296035_0
-  - bcftools=1.8=h4da6232_3
+  - bcftools=1.9
   - binutils_impl_linux-64=2.35=h18a2f87_9
   - binutils_linux-64=2.35=hc3fd857_29
   - blast=2.10.1=pl526he19e7b1_3
