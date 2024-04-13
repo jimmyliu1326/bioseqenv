@@ -3,7 +3,7 @@ FROM condaforge/mambaforge:4.12.0-0
 
 # install basic dependencies
 RUN apt-get update && \
-    apt-get install -y curl wget libssl1.0.0 && \
+    apt-get install -y curl wget libssl1.0 && \
     rm -rf /var/lib/apt/lists/*
 
 # install seqdb
